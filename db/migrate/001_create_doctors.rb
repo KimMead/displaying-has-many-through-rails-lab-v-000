@@ -8,6 +8,3 @@ class CreateDoctors < ActiveRecord::Migration
     end
   end
 end
-
-
-      
