@@ -1,0 +1,1 @@
+class CreatePatients < ActiveRecord::Migration 
