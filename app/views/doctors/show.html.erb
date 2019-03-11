@@ -1,9 +1,7 @@
-<h2><%= @doctor.name %></h2>
-<p>
-  Content: <%= @post.content %>
-</p>
-Comments:
-  <% @post.comments.each do |comment| %>
-    <%= link_to comment.user.username, user_path(comment.user) %> said
-    <%= comment.content %>
+<h1><%= @doctor.name %></h1>
+<strong>Appointments:</strong><br />
+<ul>
+  <% @doctor.appointments.each do |appointment| %>
+    <%= link_to comment.user.username, user_path(comment.user) %>
+
   <% end %>
